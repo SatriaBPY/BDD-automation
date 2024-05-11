@@ -18,7 +18,7 @@ Untuk menjalakan tutorial ini, ada beberapa persiapan yang perlu di persiakan :
 
 ## Memulai Project
 
-### 1. Buar project baru 
+### 1. Buat project baru 
 
 #### screenshoot
 ![Screenshot 2024-05-11 093539](https://github.com/SatriaBPY/BDD-automation/assets/26727925/6c199bb4-d7fa-445a-8157-a4de3488c77c)
@@ -26,7 +26,7 @@ Untuk menjalakan tutorial ini, ada beberapa persiapan yang perlu di persiakan :
 ### 2. Install Plugin Cucumber dan Gherkin 
 
 #### screenshoot
-![Screenshot 2024-05-11 102728](https://github.com/SatriaBPY/BDD-automation/assets/26727925/4435a063-8f62-4e12-b86f-8f3bc98af32c)
+![Screenshot 2024-05-11 100913](https://github.com/SatriaBPY/BDD-automation/assets/26727925/5105d325-c90e-4b70-9d5e-de230df229dd)
 ![Body](https://github.com/SatriaBPY/BDD-automation/assets/26727925/80c94509-1d16-492f-b934-318517450672)
 
 ### 3. Konfigurasi pom.xml dengan menambahkan dependensi berikut ke file pom.xml
@@ -163,7 +163,7 @@ Untuk menjalakan tutorial ini, ada beberapa persiapan yang perlu di persiakan :
 </project>
 ```
 
-### 4. Buat Folder baru di bawah folder baru bernama "java" di bawah folder "test"
+### 4. Buat folder baru di bawah folder "test" dengan nama "java"
 ```project
   src/test/java
 ```
