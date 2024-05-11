@@ -18,18 +18,18 @@ Untuk menjalakan tutorial ini, ada beberapa persiapan yang perlu di persiakan :
 
 ## Memulai Project
 
-1. Buar project baru 
+### 1. Buar project baru 
 
 #### screenshoot
 ![Screenshot 2024-05-11 093539](https://github.com/SatriaBPY/BDD-automation/assets/26727925/6c199bb4-d7fa-445a-8157-a4de3488c77c)
 
-2. Install Plugin Cucumber dan Gherkin 
+### 2. Install Plugin Cucumber dan Gherkin 
 
 #### screenshoot
 ![Screenshot 2024-05-11 102728](https://github.com/SatriaBPY/BDD-automation/assets/26727925/4435a063-8f62-4e12-b86f-8f3bc98af32c)
 ![Body](https://github.com/SatriaBPY/BDD-automation/assets/26727925/80c94509-1d16-492f-b934-318517450672)
 
-3. Konfigurasi pom.xml dengan menambahkan dependensi berikut ke file pom.xml
+### 3. Konfigurasi pom.xml dengan menambahkan dependensi berikut ke file pom.xml
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -163,7 +163,7 @@ Untuk menjalakan tutorial ini, ada beberapa persiapan yang perlu di persiakan :
 </project>
 ```
 
-4. Buat Folder baru di bawah folder baru bernama "java" di bawah folder "test"
+### 4. Buat Folder baru di bawah folder baru bernama "java" di bawah folder "test"
 ```project
   src/test/java
 ```
@@ -177,13 +177,13 @@ Untuk menjalakan tutorial ini, ada beberapa persiapan yang perlu di persiakan :
 #### screenshoot
 ![Screenshot 2024-05-11 110259](https://github.com/SatriaBPY/BDD-automation/assets/26727925/062a34bc-9faa-46d8-abf1-b9f9241c8003)
 
-5. Pada folder "test" Buat folder baru bernama "resources" kemudian didalam folder tersebut buat folder bernama "Features", folder Ini akan berisi skenario dalam bahasa Gherkin
+### 5. Pada folder "test" Buat folder baru bernama "resources" kemudian didalam folder tersebut buat folder bernama "Features", folder Ini akan berisi skenario dalam bahasa Gherkin
 ```project
   src/test/resuorces/Features
 ```
 ![Screenshot 2024-05-11 102728](https://github.com/SatriaBPY/BDD-automation/assets/26727925/4435a063-8f62-4e12-b86f-8f3bc98af32c)
 
-6. Kemudian buat file di dalam foleder "Features" dengen ekstensi .feature, berikut adalah contoh "LoginTesting.feature"
+### 6. Kemudian buat file di dalam foleder "Features" dengen ekstensi .feature, berikut adalah contoh "LoginTesting.feature"
 ```gherkin
   Feature: Login Feature
   As a user i want to login
@@ -200,7 +200,7 @@ Untuk menjalakan tutorial ini, ada beberapa persiapan yang perlu di persiakan :
 #### screenshoot
 ![Screenshot 2024-05-11 103948](https://github.com/SatriaBPY/BDD-automation/assets/26727925/d81a2477-5707-4025-bd0d-e26f9236eaa6)
 
-7. Setelah itu untuk mendefinisikan langkah tersbut dapat menekan "Alt+Enter" kemudian pilih "Create all steps definition"
+### 7. Setelah itu untuk mendefinisikan langkah tersbut dapat menekan "Alt+Enter" kemudian pilih "Create all steps definition"
 #### screenshoot
 ![Screenshot 2024-05-11 104657](https://github.com/SatriaBPY/BDD-automation/assets/26727925/7814059e-5c36-497a-a98e-88742ba968a6)
 
@@ -208,12 +208,12 @@ kemudian isi filename sesuai keinginan sebagai contoh saya mengeisi nya dengan "
 #### screenshoot
 ![Screenshot 2024-05-11 104911](https://github.com/SatriaBPY/BDD-automation/assets/26727925/e848d743-53a0-4b16-81d2-75c07447cef0)
 
-8. Maka akan terlihat file seperti ini :
+### 8. Maka akan terlihat file seperti ini :
 
 #### screenshoot
 ![Screenshot 2024-05-11 110602](https://github.com/SatriaBPY/BDD-automation/assets/26727925/bf95f866-d564-4d93-a46a-b45bf64dc72b)
 
-9. lengkah berikutnya lengkapi kode seperti setup selenium dan menentukan elemen locator dari web yang akan di uji, berikut contoh nya : 
+### 9. lengkah berikutnya lengkapi kode seperti setup selenium dan menentukan elemen locator dari web yang akan di uji, berikut contoh nya : 
 ```java
 
 package StepDef;
@@ -268,7 +268,7 @@ public class Login {
 
 }
 ```
-10. Membuat file runner "TestRunner.java" untuk menjalankan scenario tersebut pada folder 
+### 10. Membuat file runner "TestRunner.java" untuk menjalankan scenario tersebut pada folder 
 ```project
   src/test/java/TestRunner
 ```
@@ -290,16 +290,16 @@ public class TestRunner {
 #### screenshoot
 ![Screenshot 2024-05-11 112142](https://github.com/SatriaBPY/BDD-automation/assets/26727925/218013ab-ced9-49bf-b5b9-20e1a980c0b0)
 
-11. Jalankan test dengan klik test pada file "LoginTesting.feature" atau tekan "Ctrl+shift+f10"
+### 11. Jalankan test dengan klik test pada file "LoginTesting.feature" atau tekan "Ctrl+shift+f10"
 
 #### screenshoot
 ![Screenshot 2024-05-11 113143](https://github.com/SatriaBPY/BDD-automation/assets/26727925/734b5249-d443-4880-bdba-a8657caf2c90)
 
-12. Jika status nya passed maka selamat test berhasil di Jalankan
+### 12. Jika status nya passed maka selamat test berhasil di Jalankan
 #### screenshoot
 ![Screenshot 2024-05-11 113823](https://github.com/SatriaBPY/BDD-automation/assets/26727925/63db784b-4dfc-4d29-a915-7d9cca0cea1b)
 
-13. Cucumber juga dapat menghasilkan report berformat .html yagn cantik dengan bantuan plugin cucumber-report, caranya adalah, pada terminal ketikan 
+### 13. Cucumber juga dapat menghasilkan report berformat .html yagn cantik dengan bantuan plugin cucumber-report, caranya adalah, pada terminal ketikan 
 
 ```project
   mvn varrify -DskipTest
